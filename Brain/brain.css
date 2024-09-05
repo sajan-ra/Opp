@@ -1,0 +1,72 @@
+/* Resetting margins and paddings */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c8fe6;
+    color: #381313;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ac4949;
+    border-radius: 10px;
+    background-color: #c495c6;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #007bff;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #555;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.brain-img {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
